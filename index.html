@@ -2,35 +2,53 @@
 <html>
     <head>
         <title>Bryce's Webpage</title>
+        <style>
+            body{
+                background-color: lightblue;
+            }
+            .navLink{
+                color: black;
+                font-size: 50px;
+                margin-right: 20px
+            }
+        </style>
     </head>
     <body>
         <nav>
-            <p>nav</p>
+            <a class="navLink" href="#about_me_scroll">About Me</a>
+            <a class="navLink" href="#bio_scroll">Bio</a>
+            <a class="navLink" href="#skills_scroll">Skills</a>
         </nav>
         <div><!--picture and dexcribe professionally-->
-            <h2>About Me</h2>
+            <h2 id="about_me_scroll">About Me</h2>
             <p>My name is Bryce Bien, I am currently an Applied Software Engineering major at Northern Kentucky University. 
                 I am expected to graduate in the spring of 2025. 
             </p>
         </div>
         <div><!--bio-->
-            <h2>Bio</h2>
+            <h2 id="bio_scroll">Bio</h2>
 
         </div>
         <div><!--top 3 skills-->
-            <h2>Skills</h2>
+            <h2 id="skills_scroll">Skills</h2>
 
         </div>
         <div><!--hobbies-->
             <h2>Hobbies</h2>
-
+            <ul>
+                <li>Snowboarding</li>
+                <li>Guitar</li>
+                <li>Camping</li>
+            </ul>
         </div>
         <div><!--contact info (form)-->
             <h2>Contact Me</h2>
+            <form>
 
+            </form>
         </div>
         <footer><!--relevant contact info inlcuding socials-->
-
+            <a href="mailto:brycebien@gmail.com">Email Me</a>
         </footer>
     </body>
 </html>
