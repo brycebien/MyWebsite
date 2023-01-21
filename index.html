@@ -3,22 +3,42 @@
     <head>
         <title>Bryce's Webpage</title>
         <style>
+            nav{
+                display: inline-block;
+                margin-bottom: 30px;
+                border-bottom: 10px solid rgb(107, 143, 54);
+            }
             a{
                 color: white;
             }
             a:hover{
-                color: blue;
-            }
-            a:visited{
-                color: white;
+                color:rgb(108, 144, 55);
             }
             body{
-                background-color: black;
+                background-image: url(./background.jpg);
                 color: white;
+                margin-left: 10%;
+                margin-right: 10%;
+                border: dotted rgb(107, 143, 54) 5px;
+                padding: 10px;
             }
             .navLink{
                 font-size: 50px;
                 margin-right: 20px
+            }
+            #profilePic{
+                border-radius: 50%;
+                border: solid 10px rgb(107, 143, 54);
+            }
+            #pictures{
+                float: right;
+            }
+            .content{
+                overflow: auto;
+            }
+            .title{
+                border-bottom: 5px solid rgb(107, 143, 54);
+                display: inline-block;
             }
         </style>
     </head>
@@ -30,35 +50,37 @@
             <a class="navLink" href="#hobbies_scroll">Hobbies</a>
             <a class="navLink" href="#contact_me_scroll">Contact Me</a>
         </nav>
-        <div><!--picture and dexcribe professionally-->
-            <h2 id="about_me_scroll">About Me</h2>
+        <div id="pictures">
+            <img id="profilePic" src="./mePic.jpg" height="300">
+        </div>
+        <div class="content"><!--picture and dexcribe professionally-->
+            <h2 class="title" id="about_me_scroll">About Me</h2>
             <p>My name is Bryce Bien, I am currently an Applied Software Engineering major at Northern Kentucky University. 
                 I am expected to graduate in the spring of 2025. 
             </p>
         </div>
-        <div><!--bio-->
-            <h2 id="bio_scroll">Bio</h2>
-
+        <div class="content"><!--bio-->
+            <h2 class="title" id="bio_scroll">Bio</h2>
         </div>
-        <div><!--top 3 skills-->
-            <h2 id="skills_scroll">Skills</h2>
-
+        <div class="content"><!--top 3 skills-->
+            <h2 class="title" id="skills_scroll">Skills</h2>
+            <!--organizational adaptability time management-->
         </div>
-        <div><!--hobbies-->
-            <h2 id="hobbies_scroll">Hobbies</h2>
+        <div class="content"><!--hobbies-->
+            <h2 class="title" id="hobbies_scroll">Hobbies</h2>
             <ul>
                 <li>Snowboarding</li>
                 <li>Guitar</li>
                 <li>Camping</li>
             </ul>
         </div>
-        <div><!--contact info (form)-->
-            <h2 id="contact_me_scroll">Contact Me</h2>
+        <div class="content"><!--contact info (form)-->
+            <h2 class="title" id="contact_me_scroll">Contact Me</h2>
             <form>
 
             </form>
         </div>
-        <footer><!--relevant contact info inlcuding socials-->
+        <footer class="content"><!--relevant contact info inlcuding socials-->
             <a href="mailto:brycebien@gmail.com">Email Me</a>
         </footer>
     </body>
