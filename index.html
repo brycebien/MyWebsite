@@ -3,9 +3,18 @@
     <head>
         <title>Bryce's Webpage</title>
         <style>
+            .navHead{
+                text-align: center;
+                font-size: 50px;
+                margin-right: 20px
+            }
             p{
                 background-color: rgb(107, 143, 54);
                 padding: 3px;
+                min-width: 129px;
+            }
+            ul{
+                background-color: rgb(107, 143, 54);  
             }
             nav{
                 display: inline-block;
@@ -24,10 +33,6 @@
                 margin-left: 10%;
                 /*margin-right: 10%;*/
             }
-            .navLink{
-                font-size: 50px;
-                margin-right: 20px
-            }
             .profilePic{
                 border-radius: 50%;
                 border: solid 10px rgb(107, 143, 54);
@@ -39,20 +44,50 @@
             }
             .content{
                 overflow: auto;
+                margin-bottom: 10px;
             }
             .title{
                 border-bottom: 5px solid rgb(107, 143, 54);
                 display: inline-block;
+                min-width: 104px;
+            }
+            form{
+                background-color: rgb(107, 143, 54);
+            }
+            td{
+                font-size: 20px;
+                text-align: right;
+                vertical-align: middle;
+            }
+            #bodyLabel{
+                text-align: left;
+            }
+            #submitBtn{
+                text-align: left;
             }
         </style>
     </head>
     <body>
         <nav>
-            <a class="navLink" href="#about_me_scroll">About Me</a>
-            <a class="navLink" href="#bio_scroll">Bio</a>
-            <a class="navLink" href="#skills_scroll">Skills</a>
-            <a class="navLink" href="#hobbies_scroll">Hobbies</a>
-            <a class="navLink" href="#contact_me_scroll">Contact Me</a>
+            <table>
+                <tr>
+                    <td class="navHead">
+                        <a class="navLink" href="#about_me_scroll">About Me</a>
+                    </td>
+                    <td class="navHead">
+                        <a class="navLink" href="#bio_scroll">Bio</a>
+                    </td>
+                    <td class="navHead">
+                        <a class="navLink" href="#skills_scroll">Skills</a>
+                    </td>
+                    <td class="navHead">
+                        <a class="navLink" href="#hobbies_scroll">Hobbies</a>
+                    </td>
+                    <td class="navHead">
+                        <a class="navLink" href="#contact_me_scroll">Contact Me</a>
+                    </td>
+                </tr>
+            </table>
         </nav>
         <div id="pictures">
             <table>
@@ -71,7 +106,8 @@
         </div>
         <div class="content"><!--picture and dexcribe professionally-->
             <h2 class="title" id="about_me_scroll">About Me</h2>
-            <p>My name is Bryce Bien, I am currently an Applied Software Engineering major at Northern Kentucky University. 
+            <p>
+                My name is Bryce Bien, I am currently an Applied Software Engineering major at Northern Kentucky University. 
                 I am expected to graduate in the spring of 2025. 
             </p>
         </div>
@@ -92,8 +128,40 @@
         </div>
         <div class="content"><!--contact info (form)-->
             <h2 class="title" id="contact_me_scroll">Contact Me</h2>
-            <form>
-
+            <form action="" method="get">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </td>
+                        <td id="bodyLabel"><label for="body">Body:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </td>
+                        <td rowspan="3"><textarea id="body" name="body" rows="10" cols="50" placeholder="Enter your text here" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="submitBtn">
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
         <footer class="content"><!--relevant contact info inlcuding socials-->
