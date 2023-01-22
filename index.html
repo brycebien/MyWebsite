@@ -4,9 +4,7 @@
         <title>Bryce's Webpage</title>
         <style>
             .navHead{
-                text-align: center;
                 font-size: 50px;
-                margin-right: 20px
             }
             p{
                 background-color: rgb(107, 143, 54);
@@ -21,6 +19,14 @@
                 margin-bottom: 30px;
                 border-bottom: 10px solid rgb(107, 143, 54);
             }
+            .navLink{
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+            #photoGallery{
+                font-size: 20px;
+                background-color: rgb(107, 143, 54);
+            }
             a{
                 color: white;
             }
@@ -33,14 +39,21 @@
                 margin-left: 10%;
                 /*margin-right: 10%;*/
             }
-            .profilePic{
+            .pic{
                 border-radius: 50%;
                 border: solid 10px rgb(107, 143, 54);
                 overflow: auto;
+                height: 350px;
+                width: 400px;
             }
             #pictures{
                 float: right;
                 margin-left: 10%;
+                border-left: dashed rgb(107, 143, 54) 10px;
+                border-top: dashed rgb(107, 143, 54) 10px;
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-right: 40px
             }
             .content{
                 overflow: auto;
@@ -91,19 +104,30 @@
         </nav>
         <div id="pictures">
             <table>
+                <th id="photoGallery">Photo Gallery</th>
                 <tr>
                     <td>
-                        <img class="profilePic" src="./images/mePic.jpg" height="300" width="352">
+                        <img class="pic" src="./images/mePic.jpg">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img class="profilePic" src="./images/Snowboard.JPG" height="300">
+                        <img class="pic" src="./images/Snowboard.JPG">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img class="profilePic" src="./images/Camp.JPG" height="300" width="352">
+                        <img class="pic" src="./images/Guitars.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="pic" src="./images/Camp.JPG">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="pic" src="./images/cave.JPG">
                     </td>
                 </tr>
                     
