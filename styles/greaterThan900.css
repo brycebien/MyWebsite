@@ -1,0 +1,85 @@
+@font-face {
+    font-family: anton;
+    src: url(./fonts/Anton-Regular.ttf);
+}
+.navHead{
+    font-size: 50px;
+    font-family: anton;
+    text-align: center;
+    vertical-align: middle;
+}
+p{
+    background-color: rgb(107, 143, 54);
+    padding: 3px;
+    min-width: 129px;
+}
+ul{
+    background-color: rgb(107, 143, 54);  
+}
+nav{
+    display: inline-block;
+    margin-bottom: 30px;
+    border-bottom: 10px solid rgb(107, 143, 54);
+}
+.navLink{
+    margin-right: 20px;
+}
+#photoGallery{
+    font-size: 20px;
+    background-color: rgb(107, 143, 54);
+}
+a{
+    color: white;
+}
+a:hover{
+    color:rgb(108, 144, 55);
+}
+body{
+    background-image: url(../images/background.jpg);
+    color: white;
+    margin-left: 10%;
+    background-size: cover;
+}
+.pic{
+    border-radius: 50%;
+    border: solid 10px rgb(107, 143, 54);
+    overflow: auto;
+    height: 350px;
+    width: 400px;
+}
+#pictures{
+    float: right;
+    margin-left: 10%;
+    border-left: dashed rgb(107, 143, 54) 10px;
+    border-top: dashed rgb(107, 143, 54) 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px
+}
+.content{
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.title{
+    border-bottom: 5px solid rgb(107, 143, 54);
+    display: inline-block;
+    text-align: center;
+    min-width: 104px;
+}
+form{
+    background-color: rgb(107, 143, 54);
+}
+td{
+    font-size: 20px;
+    text-align: right;
+    vertical-align: middle;
+}
+#bodyLabel{
+    text-align: left;
+}
+#submitBtn{
+    text-align: left;
+}
+footer{
+    background-color: red;
+}
