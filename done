@@ -1,0 +1,163 @@
+[33mcommit b633da216f12d592f8707f1b1ac5063ca8c28b6f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 13:06:10 2023 -0500
+
+    fixed changing color bug
+
+[33mcommit 9c4731d5fdc6c6a1ce0430e66d49990bab2f0b2f[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 12:49:32 2023 -0500
+
+    colors change when screen size changes
+
+[33mcommit 419121e396a35f0939f24cd88f7f2e62db546275[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 12:06:46 2023 -0500
+
+    changed tags to semantic
+
+[33mcommit dbb1337587ede882a2b2b7f057d9236c1e054c64[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 12:00:14 2023 -0500
+
+    finished bio
+
+[33mcommit 32f8c6314b9c999887ab82e8b754085bffe9151a[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 11:39:50 2023 -0500
+
+    made background cover
+
+[33mcommit 7351f90c27e198bd9eb2cd19b664ea4bf36b1037[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 11:36:38 2023 -0500
+
+    added photo of cave
+
+[33mcommit 920df291845fe857c9bc07f5ee82f2ae28822aa9[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 10:59:48 2023 -0500
+
+    started bio, added camping picture
+
+[33mcommit 4926e8b0069e853a14fbaed9fcf9e4602753804d[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 10:31:49 2023 -0500
+
+    added camping picture and skills
+
+[33mcommit f28a07500acd1c224081435082b2854e1129277a[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sun Jan 22 10:20:27 2023 -0500
+
+    added contact form
+
+[33mcommit 300c2c23015982a4c386f05d12a87903bbed2bef[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sat Jan 21 19:05:05 2023 -0500
+
+    changed formatting of pics and moved them to the right of the screen
+
+[33mcommit 3a913187f76321d0e3a6ff63f16eb12d5e66d824[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sat Jan 21 18:38:56 2023 -0500
+
+    oranization of files
+
+[33mcommit 8f812c927b57dbb216a9ecef867ef62ae496bac0[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Sat Jan 21 18:35:30 2023 -0500
+
+    changed background picture, link hover color, added profile photo and border, edits to overall style
+
+[33mcommit cce4156670017933d12f929cc82f3ac31325cabd[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 16:36:36 2023 -0500
+
+    changed background color and font color
+
+[33mcommit 62654571eefb8dfb6ae637700764f314356d13de[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 16:25:30 2023 -0500
+
+    finished nav items
+
+[33mcommit f1dcbfb1e75bb5624b1c9b382a99ce6526e03f89[m
+Merge: 756109d 6bc8e45
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 16:21:52 2023 -0500
+
+    Merge branch 'main' of https://github.com/brycebien/MyWebsite
+
+[33mcommit 756109d8bef1fea3429c3edb1bfec27da0163f6b[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 16:21:40 2023 -0500
+
+    Changed background to light blue, added nav links to scroll to part of page
+
+[33mcommit 6bc8e4565ab24423c88cc3807ce9ce19aebf2705[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:44:13 2023 -0500
+
+    Delete CNAME
+
+[33mcommit 2d2ba634e651521fc23d44d601ad69fa35872acf[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:42:24 2023 -0500
+
+    Create CNAME
+
+[33mcommit bf16053c09407e50465888ca016193c9f9c7c43e[m
+Merge: db4449f b9f9b63
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 15:40:48 2023 -0500
+
+    Merge branch 'main' of https://github.com/brycebien/MyWebsite
+
+[33mcommit db4449fc1343973816d18fd7cf59a5726cae8711[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 15:40:19 2023 -0500
+
+    test
+
+[33mcommit b9f9b6319199ccb31a1bd52500b543ecc7c3f87c[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:37:38 2023 -0500
+
+    Delete CNAME
+
+[33mcommit f19adbadc54a1488b62c60086dc66723c0aa3dec[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:37:21 2023 -0500
+
+    Update CNAME
+
+[33mcommit 31715f263ec2ea41979f348ce9db525e4058437e[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:36:32 2023 -0500
+
+    Update CNAME
+
+[33mcommit 592b80df40ad50230ced10069389d945f5f10090[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:36:12 2023 -0500
+
+    Update CNAME
+
+[33mcommit 41782d94783c192f1ccafa0a28666758a0482b86[m
+Author: brycebien <123025112+brycebien@users.noreply.github.com>
+Date:   Fri Jan 20 15:35:15 2023 -0500
+
+    Create CNAME
+
+[33mcommit 8959ae3db6465211c13144818b07c7ee4dbfb221[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 15:33:53 2023 -0500
+
+    Added self description (wip) and section headers
+
+[33mcommit d60440b580a2a75b874a7fd5d07a633d5fb76f44[m
+Author: Bryce <brycebien@gmail.com>
+Date:   Fri Jan 20 11:00:40 2023 -0500
+
+    added structure for assignment
