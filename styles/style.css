@@ -1,6 +1,9 @@
 @font-face {
     font-family: anton;
-    src: url(./fonts/Anton-Regular.ttf);
+    src: url(../fonts/Anton-Regular.ttf);
+}
+#aboutMe{
+    background-color: red;
 }
 .navHead{
     font-size: 50px;
