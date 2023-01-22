@@ -3,6 +3,10 @@
     <head>
         <title>Bryce's Webpage</title>
         <style>
+            p{
+                background-color: rgb(107, 143, 54);
+                padding: 3px;
+            }
             nav{
                 display: inline-block;
                 margin-bottom: 30px;
@@ -18,20 +22,20 @@
                 background-image: url(./images/background.jpg);
                 color: white;
                 margin-left: 10%;
-                margin-right: 10%;
-                border: dotted rgb(107, 143, 54) 5px;
-                padding: 10px;
+                /*margin-right: 10%;*/
             }
             .navLink{
                 font-size: 50px;
                 margin-right: 20px
             }
-            #profilePic{
+            .profilePic{
                 border-radius: 50%;
                 border: solid 10px rgb(107, 143, 54);
+                overflow: auto;
             }
             #pictures{
                 float: right;
+                margin-left: 10%;
             }
             .content{
                 overflow: auto;
@@ -51,7 +55,19 @@
             <a class="navLink" href="#contact_me_scroll">Contact Me</a>
         </nav>
         <div id="pictures">
-            <img id="profilePic" src="./images/mePic.jpg" height="300">
+            <table>
+                <tr>
+                    <td>
+                        <img class="profilePic" src="./images/mePic.jpg" height="300" width="352">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="profilePic" src="./images/Snowboard.JPG" height="300">
+                    </td>
+                </tr>
+                    
+            </table>            
         </div>
         <div class="content"><!--picture and dexcribe professionally-->
             <h2 class="title" id="about_me_scroll">About Me</h2>
